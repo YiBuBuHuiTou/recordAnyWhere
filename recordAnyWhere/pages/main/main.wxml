@@ -1,0 +1,12 @@
+<view class = "window">
+  <view class = "horizon" style='float:right'>
+  <!-- 
+    <image bindtap='onClickSettingHandler' src='../images/setting.png' class = 'setting'></image>
+    -->
+    <image bindtap='onClickLoginHandler' src='../images/user_no_login.png' class = 'login'></image>
+  </view>
+  <view class ="vertical">
+  <label>{{text}}</label>
+  </view>
+
+</view>

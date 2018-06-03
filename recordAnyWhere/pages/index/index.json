@@ -1,0 +1,11 @@
+{
+"tabBar": {
+  "list": [{
+    "pagePath": "/pages/utils/copyright.wxml",
+    "text": "text",
+    "iconPath": "iconPath",
+    "color": "grey",
+    "selectedIconPath": "selectedIconPath"
+  }]
+}
+}

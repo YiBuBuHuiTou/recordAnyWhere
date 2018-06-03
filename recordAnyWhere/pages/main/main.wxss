@@ -1,0 +1,9 @@
+.setting {
+  width: 28px;
+  height: 25px;
+
+}
+.login {
+  width: 30px;
+  height: 30px;
+}
