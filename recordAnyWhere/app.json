@@ -1,7 +1,13 @@
 {
   "pages":[
     
-    "pages/main/main"
+    "pages/main/main",
+    "pages/login/login",
+    "pages/addnote/add",
+    "pages/all/allnote",
+    "pages/calendar/calendar",
+    "pages/material/material",
+    "pages/setting/setting"
   ],
   "window":{
     "backgroundTextStyle":"light",

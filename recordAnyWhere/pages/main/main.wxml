@@ -1,12 +1,34 @@
-<view class = "window">
-  <view class = "horizon" style='float:right'>
-  <!-- 
-    <image bindtap='onClickSettingHandler' src='../images/setting.png' class = 'setting'></image>
-    -->
-    <image bindtap='onClickLoginHandler' src='../images/user_no_login.png' class = 'login'></image>
+<view class="window">
+  <view class="horizon">
+    <image bindtap='onClickLoginHandler' src='/images/user_no_login.png' class='login'></image>
   </view>
-  <view class ="vertical">
-  <label>{{text}}</label>
+  <view class='mainPictureView'>
+    <image class='mainPicture' src='/images/12.jpg' />
   </view>
 
+   <view class="table">
+      <view class='tr'>
+        <view class='td'>
+          <image src='/images/bookMark1.png' class='bookmark' bindtap='onClickShowAllNotesHandler' ></image>
+        </view>
+        <view style='width:50rpx'></view>
+        <view class='td'>
+          <image src='/images/bookMark5.png' class='bookmark' bindtap='onClickGoToCalendarHandler'></image>
+        </view>
+      </view>
+      <view class='tr'>
+        <view class='td'>
+          <image src='/images/bookMark3.png' class='bookmark' bindtap='onClickGoToFindMaterialHanlder'></image>
+        </view>
+                <view style='width:50rpx'></view>
+        <view class='td'>
+          <image src='/images/bookMark2.png' class='bookmark' bindtap='onClickSettingHandler'></image>
+        </view>
+      </view>
+      <view class='tr'  id='add'>
+        <view class='td'>
+        <image src='/images/icons/add_1.jpg'  class='add' bindtap='onClickAddNoteHandler'></image>
+        </view>
+      </view>
+    </view>
 </view>

@@ -6,10 +6,4 @@
   padding: 5rpx 20rpx;
   box-sizing: border-box;
 }
-.horizon {
-}
-.horizon-right {
-}
-.vertical {
 
-}

@@ -66,13 +66,48 @@ Page({
    * 设置按钮触发事件
    */
   onClickSettingHandler: function () {
-
+    wx.navigateTo({
+      url: '/pages/setting/setting',
+    })
   },
   /**
    * 点击登录按钮触发
    */
   onClickLoginHandler: function () {
-    
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
   },
-
+  /**
+   * 点击showall按钮触发
+   */
+  onClickShowAllNotesHandler: function () {
+    wx.navigateTo({
+      url: '/pages/all/allnote',
+    })
+  },
+  /**
+   * 点击商城按钮触发
+   */
+  onClickGoToFindMaterialHanlder: function () {
+    wx.navigateTo({
+      url: '/pages/material/material',
+    })
+  },
+  /**
+   * 点击日历按钮触发
+   */
+  onClickGoToCalendarHandler: function () {
+    wx.navigateTo({
+      url: '/pages/calendar/calendar',
+    })
+  },
+  /**
+   * 点击登录按钮触发
+   */
+  onClickAddNoteHandler: function () {
+    wx.navigateTo({
+      url: '/pages/addnote/add',
+    })
+  },
 })
